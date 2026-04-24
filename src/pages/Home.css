@@ -1,0 +1,39 @@
+:root {
+  --primary: #6366f1;
+  --accent: #22d3ee;
+  --card: rgba(255,255,255,0.05);
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+  color: white;
+}
+
+.home {
+  padding: 60px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background: var(--card);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.hero-image img {
+  width: 250px;
+  border-radius: 12px;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.skills span {
+  margin: 5px;
+  padding: 10px;
+  background: #1e293b;
+}

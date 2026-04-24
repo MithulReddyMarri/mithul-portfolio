@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: rgba(2, 6, 23, 0.9);
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: #cbd5f5;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  color: #22d3ee;
+}
